@@ -1,0 +1,224 @@
+@font-face {
+  font-family: "justSignature";
+  src: url(../fonts/JustSignature-92w7.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", arial;
+  color: #333333;
+  overflow-x: hidden;
+  cursor: url(http://studiolenzing.com/wp-content/uploads/2019/04/oval_16dp.svg),
+    pointer;
+}
+
+.navbar-container {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  z-index: 9;
+  position: fixed;
+  width: 100%;
+}
+
+.border-bottom {
+  /* border-bottom: 1px solid lightslategray; */
+  box-shadow: 0 0 9px 0 rgb(168, 179, 179);
+}
+
+.navbar__list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.container-logo {
+  padding-left: 50px;
+}
+
+.navbar__list-item {
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+.navbar__list-item a {
+  color: #333333;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "justSignature";
+  font-size: 18px;
+  justify-content: start;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.container-links {
+  display: flex;
+  align-items: center;
+}
+
+.container-links:last-child {
+  margin-right: 30px;
+}
+
+.test {
+  height: 100vh;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+/* arrow to top */
+
+div.arrow {
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  box-sizing: border-box;
+  position: fixed;
+  right: 40px;
+  bottom: 20px;
+  transform: rotate(-45deg);
+}
+
+div.arrow::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-width: 2px 2px 0 0;
+  border-style: solid;
+  border-color: #333333;
+  transition: 0.2s ease;
+  display: block;
+  transform-origin: 100% 0;
+}
+
+div.arrow::after {
+  content: "";
+  float: left;
+  position: relative;
+  top: -100%;
+  width: 100%;
+  height: 100%;
+  border-width: 0 2px 0 0;
+  border-style: solid;
+  border-color: #333333;
+  transform-origin: 100% 0;
+  transition: 0.2s ease;
+}
+
+div.arrow:hover::after {
+  transform: rotate(45deg);
+  border-color: #5fd3c9;
+  height: 120%;
+}
+div.arrow:hover::before {
+  border-color: #5fd3c9;
+  transform: scale(0.8);
+}
+
+/* footer */
+
+.footer-container {
+  border-top: 1px solid rgb(207, 212, 212);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 23px;
+}
+
+.container__social__icons {
+  width: 50%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  padding-bottom: 30px;
+}
+
+.container__icon--medium {
+  height: 46px;
+  width: 46px;
+  border-radius: 50%;
+  border: none;
+  background-color: #5fd3c9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__icon--medium img {
+  height: 24px;
+  width: 24px;
+}
+
+.social__icons-item {
+  height: 46px;
+  width: 46px;
+}
+
+.transform {
+  transition: all ease-in-out 0.4s;
+}
+
+.transform:hover {
+  transform: scale(1.2);
+  transition: all ease-in-out 0.4s;
+}
+
+.icon-medium {
+  transition: all ease-in-out 0.4s;
+}
+
+.icon-medium:hover {
+  transform: scale(1.2);
+  transition: all ease-in-out 0.4s;
+}
+
+.footer__info {
+  color: #333333;
+  opacity: 0.7;
+  font-weight: normal;
+  margin-right: 2px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.container__register {
+  display: flex;
+  justify-content: center;
+}
+
+.container__register a {
+  cursor: pointer;
+}
+
+.container__bio {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 15%;
+  display: flex;
+}
+
+.bio__image {
+  width: 22%;
+  border-radius: 3px;
+}
