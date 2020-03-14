@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="styles/bio.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Marta Aguilar Bio</title>
   </head>
   <body>
@@ -27,54 +28,169 @@
     </header>
     <main>
       <section class="container__bio">
-        <img class="bio__image" src="images/Marta4.jpeg" alt="" />
-        <div>
-          <div>
-            <p>Amante de los animales y de la naturaleza, rockera</p>
-            <img class="icon__hand" src="images/mano3.png" alt="" />
+        <div
+          data-aos-duration="800"
+          data-aos="fade-up"
+          data-aos-delay="500"
+          class="bio__image"
+        ></div>
+        <div class="container__bio-text">
+          <div
+            data-aos-duration="800"
+            data-aos="fade-up"
+            data-aos-delay="500"
+            class="about__tilte"
+          >
+            <h2 class="subtitle__about">SOBRE MÍ</h2>
           </div>
-          <div>
-            <p>
-              Mis objetivos son crecer, crear, trabajar y aprender
+          <div data-aos-duration="800"
+          data-aos="fade-up"
+          data-aos-delay="500">
+            <h1 class="subtitle">
+              Mis objetivos son <span>crecer, crear, trabajar y aprender</span>
               constantemente.
-            </p>
+            </h1>
           </div>
           <div>
-            <p>
+            <p class="about__header-text" data-aos-duration="800"
+            data-aos="fade-up"
+            data-aos-delay="500">
+              Amante de los animales, de la naturaleza y del rock.
+            </p>
+            <p class="about__header-adalab" data-aos-duration="800"
+            data-aos="fade-up"
+            data-aos-delay="500">
               Anteriormente tenía un trabajo precario en el cual me sentía
-              estancada y no me hacía crecer laboralmente hablando, así que
-              decidí reinventarme y comencé a estudiar desarrollo web en Adalab.
-            </p>
-            <p>
-              Una vez fianlizado el bootcamp comencé a trabajar en Kairós DS, en
-              la cual llevo 2 años.
-            </p>
-            <p>
-              Tengo experiencia trabajando con diferentes tecnologías como pueda
-              ser Angular, Polymer, Lit Element... Desde el principio he
-              trabajado con metodologías Agile.
-            </p>
-            <p>
-              He trabajado para clientes como pueda ser BBVA o Banco Santander.
-            </p>
-            <p>
-              Desde que comencé en este mundo siempre he tenido mucha curiosidad
-              tanto por la parte de User Experience como la parte de User
-              Interfaz, interesándome por el trabajo de mis compañeros UX/UI.
-              Asi que decidí formarme en Ironhack en este campo para poder tener
-              un perfil mixto y hacer tanto el diseño como el desarrollo de un
-              producto.
-            </p>
-            <p>
-              Lo que más me gusta de mi trabajo es que cada día aprendo cosas
-              nuevas, es un sector está en costante evolución.
+              estancada, así que decidí reinventarme y comencé a estudiar
+              desarrollo web en Adalab.
             </p>
           </div>
         </div>
       </section>
-      <div class="test"></div>
-      <div class="test"></div>
-      <footer class="footer-container">
+      <!-- <section class="container__about">
+        <div>
+          <p>
+            Anteriormente tenía un trabajo precario en el cual me sentía
+            estancada, así que decidí reinventarme y comencé a estudiar
+            desarrollo web en Adalab.
+          </p>
+          <p>
+            Una vez fianlizado el bootcamp comencé a trabajar en Kairós DS, en
+            la cual llevo 2 años.
+          </p>
+          <p>
+            Tengo experiencia trabajando con diferentes tecnologías como pueda
+            ser Angular, Polymer, Lit Element... Desde el principio he trabajado
+            con metodologías Agile.
+          </p>
+          <p>
+            He trabajado para clientes como pueda ser BBVA o Banco Santander.
+          </p>
+          <p>
+            Desde que comencé en este mundo siempre he tenido mucha curiosidad
+            tanto por la parte de User Experience como la parte de User
+            Interfaz, interesándome por el trabajo de mis compañeros UX/UI. Asi
+            que decidí formarme en Ironhack en este campo para poder tener un
+            perfil mixto y hacer tanto el diseño como el desarrollo de un
+            producto.
+          </p>
+          <p>
+            Lo que más me gusta de mi trabajo es que cada día aprendo cosas
+            nuevas, es un sector está en costante evolución.
+          </p>
+        </div>
+        <div
+          data-aos-duration="800"
+          data-aos="fade-up"
+          data-aos-delay="500"
+          class="bio__image2"
+        ></div>
+      </section> -->
+
+      <section class="container__about">
+        <div></div>
+        <div class="container__experience">
+          <h2 class="subtitle__about" data-aos-duration="800"
+          data-aos="fade-up"
+          data-aos-delay="500">EXPERIENCIA</h2>
+          <div>
+            <p data-aos-duration="800"
+            data-aos="fade-up"
+            data-aos-delay="500">
+              Una vez fianlizado el bootcamp comencé a trabajar en Kairós DS, en
+              la cual llevo 2 años.
+            </p>
+            <p data-aos-duration="800"
+            data-aos="fade-up"
+            data-aos-delay="500">
+              He trabajado para clientes como pueda ser
+              <span class="strong">BBVA</span> o
+              <span class="strong">Banco Santander.</span>
+            </p>
+            <div class="container_clients-icons" data-aos-duration="800"
+            data-aos="fade-up"
+            data-aos-delay="500">
+              <div class="client__icon client__icon-kairos"></div>
+              <div class="client__icon client__icon-bbva"></div>
+              <div class="client__icon client__icon-santander"></div>
+            </div>
+          </div>
+        </div>
+        <div class="container__ux">
+          <div class="container__ux-text" data-aos-duration="800"
+          data-aos="fade-up"
+          data-aos-delay="500">
+            <p class="ux__text">
+            Desde que comencé en este mundo siempre he tenido mucha
+            curiosidad tanto por la parte de User Experience como la parte
+            de User Interfaz, interesándome por el trabajo de mis compañeros
+            UX/UI. Asi que decidí formarme en Ironhack en este campo para
+            poder tener un perfil mixto y hacer tanto el diseño como el
+            desarrollo de un producto.
+          </p>
+          <p>
+            Lo que más me gusta de mi trabajo es que cada día aprendo cosas
+            nuevas, es un sector está en costante evolución.
+          </p>
+          </div>
+          <div class="bio__image2" data-aos-duration="800"
+          data-aos="fade-up"
+          data-aos-delay="500"></div>
+        </div>
+        <div class="container__tech">
+          <h2 class="subtitle__about" data-aos-duration="800"
+          data-aos="fade-up"
+          data-aos-delay="500">TECNOLOGÍAS Y METODOLOGÍAS</h2>
+          <div>
+            <div>
+              <p data-aos-duration="800"
+              data-aos="fade-up"
+              data-aos-delay="500">
+                Tengo experiencia trabajando con las siguientes técnologías:
+              </p>
+            </div>
+            <ul class="container__tech-list" data-aos-duration="800"
+            data-aos="fade-up"
+            data-aos-delay="500">
+              <li class="tech__item">
+                <span>HTML5 · CSS3 · JAVASCRIPT · SASS · ES6 · GIT · REACT · GULP · ZEPLIN · BOOTSTRAP · POLYMER · LIT ELEMENT · ANGULAR</span>
+              </li>
+              <li class="tech__item">
+                <span>SKETCH · FIGMA · PRINCIPLE · INVISION</span>
+              </li>
+              <li class="tech__item">
+                <span>SCRUM · LEAN UX · DESIGN THINKING</span>
+              </li>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer
+        class="footer-container"
+        data-aos-duration="1000"
+        data-aos="fade-down"
+        data-aos-delay="200"
+      >
         <ul class="container__social__icons">
           <li>
             <a target="_blank" href="https://github.com/MartaAS">
@@ -119,5 +235,9 @@
       </div>
     </main>
     <script src="js/bio.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

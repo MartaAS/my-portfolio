@@ -17,37 +17,28 @@
             <li class="navbar__list-item logo">Marta Aguilar</li>
           </div>
           <div class="container-links">
-            <li class="navbar__list-item"><a href="#works">TRABAJOS</a></li>
+            <li class="navbar__list-item"><a class="link__work" href="#works">TRABAJOS</a></li>
             <li class="navbar__list-item"><a href="bio.html">BIO</a></li>
           </div>
         </ul>
       </nav>
       <div class="presentation__container">
-        <!-- <div class="circle"></div> -->
-        <!-- <div class="circle2"></div> -->
         <div>
-          <!-- <h1>MARTA AGUILAR</h1>
-        <hr>
-        </hr> -->
-          <h1 class="header__title">
+          <h1 data-aos-duration="800" data-aos="fade-up" data-aos-delay="500" class="header__title">
             Soy Marta Aguilar,
             <span class="color-text">Desarrolladora Web</span> y
             <span class="color-text">Diseñadora UX/UI.</span>
           </h1>
 
-          <h2 class="header__subtitle">
+          <h2 data-aos-duration="800" data-aos="fade-up" data-aos-delay="500" class="header__subtitle">
             Tengo 2 años de experiencia como desarrolladora Web con diferentes
             tecnologías y me encantaría poder complementar mi trabajo actual con
             diseño UX/UI y así poder darle vida a mis diseños.
           </h2>
-          <p class="header__actions">
-            Puedes ver <span> <a href="#works">mis trabajos</a> </span>,
-            descargar mi
-            <span
-              id="cv"
-              onclick="downloadFile(new Blob(['random data']), 'CVMartaAguilar.pdf')"
-            >
-              <a>CV</a>
+          <p data-aos-duration="800" data-aos="fade-up" data-aos-delay="500" class="header__actions">
+            Puedes ver <span> <a href="#works">mis trabajos</a> </span>
+            y mi
+              <a target="_blank" href="CVMartaAguilar.pdf">CV</a>
             </span>
             o enviarme un
             <span><a href="mailto:martaguilar.soto@gmail.com">mail</a>.</span>
@@ -58,9 +49,9 @@
     </header>
     <main>
       <section id="works" class="works-container">
-        <span class="backgroundFont">MIS TRABAJOS</span>
+        <span class="backgroundFont" data-aos-duration="800" data-aos="fade-up" data-aos-delay="500">MIS TRABAJOS</span>
         <div class="container-works-list">
-          <div class="bloque" data-aos="zoom-in-down">
+          <div class="bloque" data-aos-duration="800" data-aos="fade-up" data-aos-delay="500">
             <div class="avatar">
               <img src="images/project-1.png" class="foto" alt="" />
               <div class="opacidad"></div>
@@ -70,7 +61,7 @@
               </div>
             </div>
           </div>
-          <div class="bloque" data-aos="zoom-in-down">
+          <div class="bloque" data-aos-duration="800" data-aos="fade-up" data-aos-delay="500">
             <div class="avatar">
               <img src="images/project-2.png" class="foto" alt="" />
               <div class="opacidad"></div>
@@ -80,7 +71,7 @@
               </div>
             </div>
           </div>
-          <div class="bloque" data-aos="zoom-in-down">
+          <div class="bloque" data-aos-duration="800" data-aos="fade-up" data-aos-delay="500">
             <div class="avatar">
               <img src="images/project-3.png" class="foto" alt="" />
               <div class="opacidad"></div>
@@ -90,7 +81,7 @@
               </div>
             </div>
           </div>
-          <div class="bloque" data-aos="zoom-in-down">
+          <div class="bloque" data-aos-duration="800" data-aos="fade-up" data-aos-delay="500">
             <div class="avatar">
               <img src="images/project-4.png" class="foto" alt="" />
               <div class="opacidad"></div>
@@ -100,7 +91,7 @@
               </div>
             </div>
           </div>
-          <div class="bloque" data-aos="zoom-in-down">
+          <div class="bloque" data-aos-duration="800" data-aos="fade-up" data-aos-delay="500">
             <div class="avatar">
               <img src="images/project-5.png" class="foto" alt="" />
               <div class="opacidad"></div>
@@ -110,7 +101,7 @@
               </div>
             </div>
           </div>
-          <div class="bloque" data-aos="zoom-in-down">
+          <div class="bloque" data-aos-duration="800" data-aos="fade-up" data-aos-delay="500">
             <div class="avatar">
               <img src="images/project-6.png" class="foto" alt="" />
               <div class="opacidad"></div>
@@ -122,7 +113,7 @@
           </div>
         </div>
       </section>
-      <footer class="footer-container">
+      <footer class="footer-container" data-aos-duration="800" data-aos="fade-down" data-aos-delay="200">
         <ul class="container__social__icons">
           <li>
             <a target="_blank" href="https://github.com/MartaAS">
@@ -172,37 +163,4 @@
       AOS.init();
     </script>
   </body>
-  <!-- <body>
-    <header class="header__container">
-      <ul class="header__list">
-        <li class="header__list-item">BIO</li>
-        <li class="header__list-item">CONTACTO</li>
-      </ul>
-    </header>
-    <main>
-      <section class="presentation__container">
-        <div class="circle"></div>
-        <div class="circle2"></div>
-        <div>  
-          <h1>MARTA AGUILAR</h1>
-          <hr></hr>
-          <h2 class="header__title">
-            Desarrolladora Web y Diseñadora UX / UI. Puedes ver
-            <span><a href="#works">mis trabajos</a></span>, descargar mi <span id="cv" onclick="downloadFile(new Blob(['random data']), 'CVMarta.pdf')"><a></a>CV</a></span> o enviarme un
-            <span>mail</span>
-            
-          </h2>
-        </div>
-        <a href="#works" class="arrow-bottom bounce">
-        </a>
-      </section>
-      <section id="works" class="prueba">BLOQUE 2</section>
-      <section class="prueba2">BLOQUE 3</section>
-      <section class="prueba3">BLOQUE 4</section>
-      <div class="hidden" id="arrowTop">
-        <div onclick="toTop(); return false" class="arrow scroll"></div>
-      </div>
-    </main>
-    <script src="js/index.js"></script>
-  </body> -->
 </html>

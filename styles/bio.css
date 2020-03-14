@@ -24,7 +24,6 @@ body {
 }
 
 .border-bottom {
-  /* border-bottom: 1px solid lightslategray; */
   box-shadow: 0 0 9px 0 rgb(168, 179, 179);
 }
 
@@ -69,10 +68,6 @@ body {
 
 .container-links:last-child {
   margin-right: 30px;
-}
-
-.test {
-  height: 100vh;
 }
 
 .hidden {
@@ -212,13 +207,144 @@ div.arrow:hover::before {
 }
 
 .container__bio {
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 15%;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 12%;
   display: flex;
+  justify-content: space-around;
 }
 
 .bio__image {
-  width: 22%;
-  border-radius: 3px;
+  background-image: url(../images/Marta4.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30%;
+  height: 400px;
+}
+
+.container__bio-text {
+  font-size: 20px;
+  width: 55%;
+}
+
+.about__header-text {
+  margin-bottom: 0;
+}
+
+.subtitle {
+  font-size: 40px;
+  font-weight: normal;
+  margin-top: 5%;
+}
+
+.subtitle span {
+  font-weight: 600;
+  color: #5fd3c9;
+}
+
+.subtitle__about {
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 0;
+  line-height: 50px;
+  margin-bottom: 47px;
+}
+
+.container__about {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  font-size: 18px;
+  font-size: 18px;
+  margin-bottom: 100px;
+}
+
+.container__experience {
+  padding-top: 1%;
+}
+
+.container__tech {
+  line-height: 32px;
+}
+
+.about__header-adalab {
+  line-height: 32px;
+}
+
+.container__experience h2 {
+  margin-bottom: 5%;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.strong {
+  font-weight: 600;
+}
+
+.client__icon-kairos {
+  background-image: url(../images/kairos.png);
+  background-size: contain;
+}
+
+.client__icon-bbva {
+  background-image: url(../images/logo_bbva.png);
+  background-size: contain;
+}
+
+.client__icon-santander {
+  background-image: url(../images/logo_santander.png);
+  background-size: contain;
+  width: 150px !important;
+}
+
+.client__icon {
+  width: 100px;
+  background-repeat: no-repeat;
+  height: 40px;
+}
+
+.container_clients-icons {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tech__icons {
+  width: 100px;
+  background-repeat: no-repeat;
+  height: 40px;
+}
+
+.tech__icon-html {
+  background-image: url(../images/html.jpg);
+  background-size: contain;
+}
+
+.container__tech-list {
+  list-style: none;
+  padding: 0;
+  font-size: 16px;
+}
+
+.bio__image2 {
+  background-image: url(../images/marta2.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 35%;
+  height: 400px;
+}
+
+.container__ux {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12%;
+}
+
+.container__ux-text {
+  width: 60%;
+  line-height: 32px;
+}
+
+.ux__text {
+  margin-top: 0;
 }
